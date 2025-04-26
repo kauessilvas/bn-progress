@@ -389,18 +389,14 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 20rem;
+  gap: 18rem;
   padding: 40px 11%;
-  overflow-x: hidden;
 }
 
 .about-wrapper-text {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  flex: 1;
-  width: 465px;
 }
 
 .about-title {
@@ -415,18 +411,12 @@ img {
 
 @media (max-width: 1350px) {
   .about {
-    flex-direction: column-reverse;
-    padding: 40px 0;
-    padding-bottom: 80px;
-    row-gap: 60px;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 40px 5%;
   }
 }
 
-@media (max-width: 280px) {
-  .about {
-    padding-bottom: 40px;
-  }
-}
 
 .features {
   margin-top: 100px;
